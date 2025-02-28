@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--create common class custom button-->
+    <!--    <com.example.taskapplication.CustomButton-->
+
+    <!--    created plugin and use here-->
+    <com.example.library.CustomButton
+        android:id="@+id/rectangleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rectangle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp" />
+
+<!--    <com.example.taskapplication.CustomButton-->
+    <!--    created plugin and use here-->
+    <com.example.library.CustomButton
+        android:id="@+id/roundButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="round"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/rectangleButton"
+        android:layout_marginTop="50dp"/>
+
+
+    <!--    <Button-->
+<!--        android:id="@+id/rectangleButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Rectangle"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="90dp" />-->
+<!--    <Button-->
+<!--        android:id="@+id/roundButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="round"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_below="@id/rectangleButton"-->
+<!--        android:layout_marginTop="50dp"/>-->
+
+
+</RelativeLayout>

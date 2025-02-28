@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--create common class custom button-->
+<!--    <com.example.taskapplication.CustomButton-->
+
+<!--    created plugin and use here-->
+    <com.example.library.CustomButton
+            android:id="@+id/navigateToSecondPage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NaigateToSecondPage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="90dp" />
+
+<!--    <com.example.taskapplication.CustomButton-->
+    <com.example.library.CustomButton
+        android:id="@+id/showCustomButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SHOW CUSTOM BUTTON"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/navigateToSecondPage"
+            android:layout_marginTop="50dp"/>
+
+    <com.example.library.CustomButton
+        android:id="@+id/showQrScanner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QR BUTTON"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/showCustomButton"
+        android:layout_marginTop="50dp"/>
+
+    <com.example.library.CustomButton
+        android:id="@+id/example"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Example"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/showQrScanner"
+        android:layout_marginTop="50dp"/>
+
+
+
+
+
+    <!--    <Button-->
+<!--        android:id="@+id/navigateToSecondPage"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="NaigateToSecondPage"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="90dp" />-->
+<!--    <Button-->
+<!--        android:id="@+id/showCustomButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="SHOW CUSTOM BUTTON"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_below="@id/navigateToSecondPage"-->
+<!--        android:layout_marginTop="50dp"/>-->
+
+
+</RelativeLayout>
